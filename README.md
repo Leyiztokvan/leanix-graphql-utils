@@ -11,6 +11,7 @@ These utilities are created to ease the extraction and management of data from L
 - [Use](#use)
     - [Use Case](#use-case-example-usage)
 - [File Structure](#file-structure)
+- [License](#license)
 
 ## Setup
 
@@ -320,9 +321,9 @@ To see an example of retrieving information on applications in LeanIX using a `a
 - `test_graphql_leanix_utils.py`: File to test the main methods in `leanix_utils.py` and `graphql_leanix_utils.py`
 
 
-## [License](/LeanIX/LICENSE)
+## License
 
-This project is licensed under **no open-source license** and is intended for **showcasing purposes only**.  
+This project is licensed under [**no open-source license**](/LICENSE) and is intended for **showcasing purposes only**.  
 All rights are reserved by the author.
 
 No part of this project may be used, copied, modified, or distributed without explicit permission.
