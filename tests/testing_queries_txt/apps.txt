@@ -1,0 +1,31 @@
+query allFactSheetsQuery($filter: FilterInput!, $sortings: [Sorting]) {
+  allFactSheets(filter: $filter, sort: $sortings) {
+    edges {
+      node {
+        ... on Application {
+          id
+          bankId
+          displayName
+          #ADDTIONAL_FACTSHEET_NODES#
+        }
+        #ADDTIONAL_NODE_NODES#
+      }
+    }
+  }
+}
+
+{
+  "filter": {
+    "facetFilters":
+      [
+      ${facet_filters}
+    ]
+  },
+  "sortings": [
+    {
+      "key": "displayName",
+      "order": "asc"
+    }
+  ]
+}
+
